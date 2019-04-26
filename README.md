@@ -31,7 +31,7 @@ See LICENSE for license information.
 ```
 
 Here is an example on using metacvpartition in matlab.
-```
+```matlab
 % make some labels
 labels = round((sin(linspace(0,5*pi,1000)')+1)*2)+1; % will be between 1 and 5
 nFolds = 4;
